@@ -1,0 +1,80 @@
+:root {
+  --primary: #65bafa;
+  --black-100: rgba(0, 0, 0, 1);
+  --black-36: rgba(0, 0, 0, 0.36);
+  --black-10: rgba(0, 0, 0, 0.1);
+  --black-6: rgba(0, 0, 0, 0.06);
+  --gray-700: #2d3748;
+  --gray-600: #4a5568;
+  --gray-500: #718096;
+  --gray-400: #a0aec0;
+  --gray-300: #cbd5e0;
+  --gray-200: #e2e8f0;
+  --gray-100: #edf2f7;
+  --gray-light: #f5f8fd;
+}
+
+* {
+  font-family: "Pretendard";
+  font-size: 10px;
+}
+body,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+.divRow {
+  display: flex;
+  flex-direction: row;
+}
+.divColumn {
+  display: flex;
+  flex-direction: column;
+}
+.divJustifyCenter {
+  justify-content: center;
+}
+.divJustifyBetween {
+  justify-content: space-between;
+}
+.divAlignCenter {
+  align-items: center;
+}
+.divPadding {
+  padding: 0 4rem;
+}
+.divAbsolute {
+  position: absolute;
+}
+
+.textPrimary {
+  color: var(--primary);
+}
+.textBlack100 {
+  color: var(--black-100);
+}
+.textBlack36 {
+  color: var(--black-36);
+}
+.textGray700 {
+  color: var(--gray-700);
+}
+.textGray600 {
+  color: var(--gray-500);
+}
+.textGray500 {
+  color: var(--gray-500);
+}
+.textGray400 {
+  color: var(--gray-300);
+}
+.textGray300 {
+  color: var(--gray-300);
+}
+.textGray200 {
+  color: var(--gray-200);
+}
+.textGray100 {
+  color: var(--gray-100);
+}
